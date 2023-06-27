@@ -1,32 +1,38 @@
 {
-    "name": "mod-starter",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "start": "npm install && npm run server",
-        "server": "node development-server.js src"
-    },
-    "keywords": [],
-    "author": "Emanuel Dellsén, Hartmut Fischer, Jonatan Vaara, Alexander Strand & Karl Västgård",
-    "license": "ISC",
-    "devDependencies": {
-        "clean-css": "^4.2.3",
-        "husky": "^4.3.0",
-        "live-server": "^1.2.1",
-        "prettier": "^2.1.2",
-        "pretty-quick": "^3.0.2"
-    },
-    "dependencies": {
-        "clipboardy": "^2.3.0",
-        "eslint": "^7.10.0",
-        "html-minifier": "^4.0.0",
-        "minify": "^6.0.0",
-        "minimist": "^1.2.5",
-        "puppeteer": "^5.3.1"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
+  "name": "mod-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm install && npm run build-watch",
+    "server": "node development-server.js dist",
+    "build": "webpack --mode production --no-devtool",
+    "build-watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "Emanuel Dellsén, Hartmut Fischer, Jonatan Vaara, Alexander Strand & Karl Västgård",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css": "^4.2.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "husky": "^4.3.0",
+    "live-server": "^1.2.1",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.0.2",
+    "ts-loader": "^9.4.3",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "eslint": "^7.10.0",
+    "html-minifier": "^4.0.0",
+    "minify": "^6.0.0",
+    "minimist": "^1.2.5",
+    "puppeteer": "^5.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
     }
+  }
 }
