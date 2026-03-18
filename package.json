@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "clipboardy": "^3.0.0",
-    "eslint": "^7.10.0",
+    "eslint": "^9.15.0",
     "html-minifier": "^4.0.0",
     "minify": "^6.0.0",
     "minimist": "^1.2.5"
