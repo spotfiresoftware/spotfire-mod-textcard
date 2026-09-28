@@ -1,6 +1,6 @@
 {
-  "name": "mod-starter",
-  "version": "1.0.0",
+  "name": "text-card-mod",
+  "version": "1.2.1",
   "description": "",
   "scripts": {
     "start": "npm install && npm run build-watch",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Emanuel Dellsén, Hartmut Fischer, Jonatan Vaara, Alexander Strand & Karl Västgård",
-  "license": "ISC",
+  "license": "MOD EUA",
   "devDependencies": {
     "@tibco/spotfire-mods-dev-server": "^1.0.1",
     "clean-css": "^4.2.3",
@@ -21,13 +21,6 @@
     "ts-loader": "^9.4.3",
     "webpack": "^5.88.0",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "clipboardy": "^3.0.0",
-    "eslint": "^7.10.0",
-    "html-minifier": "^4.0.0",
-    "minify": "^6.0.0",
-    "minimist": "^1.2.5"
   },
   "husky": {
     "hooks": {
