@@ -1,0 +1,39 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "text-card-mod@1.2.1",
+  "documentNamespace": "http://spdx.org/spdxdocs/text-card-mod-1.2.1-***",
+  "creationInfo": {
+    "created": "2026-09-29T13:50:56Z",
+    "creators": ["Tool: npm/cli-11.6.2"]
+  },
+  "documentDescribes": ["SPDXRef-Package-text-card-mod-1.2.1"],
+  "packages": [
+    {
+      "name": "text-card-mod",
+      "SPDXID": "SPDXRef-Package-text-card-mod-1.2.1",
+      "versionInfo": "1.2.1",
+      "packageFileName": "",
+      "primaryPackagePurpose": "LIBRARY",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseDeclared": "MOD EUA",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/text-card-mod@1.2.1"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-text-card-mod-1.2.1",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

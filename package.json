@@ -6,7 +6,8 @@
     "start": "npm install && npm run build-watch",
     "server": "mods-dev-server dist",
     "build": "webpack --mode production --no-devtool",
-    "build-watch": "webpack --watch"
+    "build-watch": "webpack --watch",
+    "sbom": "node scripts/generate-sbom.js"
   },
   "keywords": [],
   "author": "Emanuel Dellsén, Hartmut Fischer, Jonatan Vaara, Alexander Strand & Karl Västgård",
