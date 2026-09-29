@@ -15,7 +15,7 @@
   "devDependencies": {
     "@tibco/spotfire-mods-dev-server": "^1.0.1",
     "clean-css": "^4.2.3",
-    "copy-webpack-plugin": "^11.0.0",
+    "copy-webpack-plugin": "^14.0.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "pretty-quick": "^3.0.2",
